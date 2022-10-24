@@ -6,7 +6,7 @@ function Header({ title }) {
   return (
     <div>
       <h1 style={{ color: 'red', fontSize: '2rem', fontWeight: 'bold' }}>{title}</h1>
-      <Button />
+      <Button text="Add Task" />
     </div>
   );
 }
