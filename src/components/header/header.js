@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from '../button/button';
+import Button from '../button/button';
 
-function header() {
+function Header() {
   return (
     <div>
       <h1>ToDo React App</h1>
@@ -10,4 +10,4 @@ function header() {
   );
 }
 
-export default header
+export default Header;
