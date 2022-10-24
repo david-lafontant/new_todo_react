@@ -1,12 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+// import PropTypes from 'prop-types';
 
-const button = props => {
-  return (
-    <div>button</div>
-  )
+function Button() {
+  return <div>button</div>;
 }
 
-button.propTypes = {}
+// Button.propTypes = {};
 
-export default button
+export default Button;
